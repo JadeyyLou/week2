@@ -14,15 +14,16 @@ body {
 .main {
 	/* border:2px solid red; */
 	display:flex;
-	/* flex-direction: row; */
 	align-items:center ;
 	justify-content: center;
 	height:100%;
 	width:100%;
+	padding-top:100px;
+	padding-bottom:70px;
 }
 
 .topsection{
-	border:1px solid rgb(0, 0, 0,0.3);
+	border:1.5px solid rgb(0, 0, 0,0.3);
 	display:flex;
 	flex-direction: column;
 	align-items: center;
@@ -36,7 +37,7 @@ body {
 	/* border:2px solid green; */
 	min-height: 100%;
 	max-width: 100%;
-	height:550px;
+	height:580px;
 	width:25%;
 	display:flex;
 	padding-top:0px;
@@ -49,7 +50,7 @@ body {
 			
 				max-height: 100%;
 				max-width: 100%;
-				height:100px;
+				height:90px;
 				width:250px;
 				padding:0px;
 			
@@ -58,10 +59,10 @@ body {
  .login2{
 	 /* border:1px solid black; */
 	 width:400px;
-	 height:100px;
+	 height:110px;
 	 display:flex;
 	 flex-direction:column;
-	 justify-content:space-evenly;
+	 justify-content:space-between;
 	 align-items:center;
 	 
 	 
@@ -69,14 +70,12 @@ body {
 
 
 
-
-
 .phone { 
 	/* border:3px solid yellow; */
 	max-height: 100%;
 	max-width: 25%;
-	height:100%;
-	width:100%;
+	height:700px;
+	width:500px;
 	padding-bottom:50px
 }
 
@@ -111,13 +110,15 @@ button {
 
 }
 input {
-	
+	border: 1px solid black;
+	border-radius: 2px;
 	width:250px;
 	height:25px;
 	
 }
 .divider{
 	width:250px;
+	color:grey;
 	/* border:2px solid blue; */
 	display:flex;
 	justify-content: center;
@@ -157,12 +158,12 @@ input {
 	
 
 .signup{
-    border:1px solid rgb(0, 0, 0,0.3);
+    border:1.5px solid rgb(0, 0, 0,0.3);
 	display:flex;
 	justify-content:center;
 	align-items:center;
 	width:400px; 
-	height:90px;
+	height:110px;
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	font-size: 13px;
 }
@@ -186,8 +187,8 @@ footer {
 }
 
 a {
-	color: grey;
-	font-weight: 100;
+	color: rgb(147, 147, 147);
+	font-weight: 400;
 	letter-spacing: 1px;
 	text-decoration: none;
 	padding: 0px;
@@ -205,11 +206,12 @@ footer ul{
   justify-content: center;
   align-items:center;
   font-size:15px;
-  color:grey;
+  color:rgb(147, 147, 147);
   margin:0px;
   padding:0px;
   width:100%;
   flex-shrink:1;
+  padding-top:10px;
   /* flex-wrap: nowrap; */
 }
 
@@ -221,6 +223,7 @@ footer ul{
 	font-weight: bold;
 	display:flex;
 	align-items:center;
+	
 	/* border:2px solid orange; */
 	width:500px;
 }
@@ -295,18 +298,11 @@ li:nth-child(5){
 	width:80px;
 }
 
-/* --------------------------------------------- */
-
-
-
-
-
-
-
+/* --------------------------------------- */
 
 .cpright{
 	/* border:2px solid peachpuff; */
-	color: lightgrey;
+	color: rgb(147, 147, 147);
 	display:flex;
 	justify-content: center;
 }
